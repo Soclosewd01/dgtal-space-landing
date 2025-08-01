@@ -49,7 +49,11 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-    /* CSS */
+    /* Service Section Start */
+    .service a{
+        margin-bottom: 10px;
+    }
+    /* Service Section End */
 
 }
 

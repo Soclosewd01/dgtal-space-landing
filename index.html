@@ -64,7 +64,7 @@
                 <a href="index.html" class="d-flex align-items-center">
                     <!-- <i class="fab fa-twitter text-primary nav-icon"></i> -->
                     <!-- <span class="logo-text ms-2 fs-5 fw-bold">Twitter</span> -->
-                     <img src="./assets/images/logo/logo.svg">
+                    <img src="./assets/images/logo/logo.svg">
                 </a>
             </div>
 
@@ -112,7 +112,8 @@
         <!-- Desktop Version Menu -->
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand navbar__brand" href="index.html"><img src="./assets/images/logo/logo.svg" alt=""></a>
+                <a class="navbar-brand navbar__brand" href="index.html"><img src="./assets/images/logo/logo.svg"
+                        alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -130,7 +131,8 @@
                             <a class="nav-link btn-text fw-bold ms-xxl-4 ms-xl-4 ms-lg-4" href="#Reviews">Reviews</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-text fw-bold ms-xxl-4 ms-xl-4 ms-lg-4" href="#ContactUs">Contact Us</a>
+                            <a class="nav-link btn-text fw-bold ms-xxl-4 ms-xl-4 ms-lg-4" href="#ContactUs">Contact
+                                Us</a>
                         </li>
                     </ul>
                 </div>
@@ -585,7 +587,8 @@
                                     class="fa-solid fa-paper-plane"></i></button>
                         </div>
                     </form>
-                    <div class="thank-you-card text-center px-2 py-5">
+
+                    <div class="thank-you-card text-center px-2 py-5 d-none">
                         <h1 class="fw-bold">
                             <span class="highlight-word">
                                 <span class="highlight-word__shape">
@@ -640,15 +643,19 @@
                 nav: false,
                 dots: false,
                 autoplay: true,
+                autoplayHoverPause: true,
+                smartSpeed: 1000,
+                slideBy: 4,
+                mouseDrag: true,
                 autoplayTimeout: 5000,
                 responsive: {
                     0: { items: 1 },
                     576: { items: 1 },
                     576: { items: 1 },
                     768: { items: 1 },
-                    992: { items: 1 },
-                    1200: { items: 1 },
-                    1400: { items: 1 },
+                    992: { items: 4 },
+                    1200: { items: 4 },
+                    1400: { items: 4 },
                 }
             });
         });
