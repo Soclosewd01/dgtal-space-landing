@@ -1,0 +1,120 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* Banner Section Start */
+    .header .header__title span:last-child {
+        font-size: 19px;
+    }
+
+    .header .header__shape button {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    /* Banner Section End */
+
+    /* Service Section Start */
+    .service .section-header .section-header__title .section-header__title__badge {
+        font-size: 19px;
+    }
+
+    .service .section-header p {
+        font-size: 14px;
+    }
+
+    .service .service-card__title {
+        font-size: 26px;
+    }
+
+    .service .service__item .service-card__text {
+        font-size: 14px;
+    }
+
+    .service a{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    /* Service Section End */
+
+    /* Reviews Section Start */
+    .review .section-header .section-header__title .section-header__title__badge{
+        font-size: 19px;
+    }
+
+    .review .section-header .section-header__text{
+        font-size: 14px;
+    }
+    /* Reviews Section End */
+
+    /* Subscribe Section Start */
+    .subscribe button{
+        font-size: 14px;
+    }
+    /* Subscribe Section End */
+
+    /* Footer Section Start */
+    .footer p{
+        font-size: 14px;
+    }
+    /* Footer Section End */
+}
