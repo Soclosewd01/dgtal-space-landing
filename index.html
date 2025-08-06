@@ -53,6 +53,8 @@
     <!-- Owl Carousel CSS -->
     <link rel="stylesheet" href="./assets/plugins/owl.carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/plugins/owl.carousel/owl.theme.default.min.css">
+    <!-- Aos CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -142,11 +144,11 @@
         <!-- Banner Section -->
         <header class="header">
             <div class="container">
-                <h1 class="header__title text-center">
+                <h1 class="header__title text-center" data-aos="zoom-in">
                     <span class="header__title__sentence">Creative Web</span>
                     <span class="header__title__sentence">Design & Development Agency</span>
                 </h1>
-                <div class="header__frame">
+                <div class="header__frame" data-aos="flip-left">
                     <div class="header__frame__window">
                         <img src="./assets/images/banner/website-preview.jpg" alt="website preview" loading="lazy"
                             class="header__frame__window__screen">
@@ -292,7 +294,7 @@
 
         <section class="service section-gap" id="AboutUs">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header" data-aos="zoom-in">
                     <h1 class="section-header__title">
                         <span class="section-header__title__sentence highlight-word">
                             <span class="highlight-word__shape">
@@ -307,7 +309,7 @@
                         profitably based on high-performing strategies.</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 0">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 0" data-aos="fade-down" data-aos-delay="100">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-code"></i>
@@ -318,7 +320,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 1">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 1" data-aos="fade-down" data-aos-delay="200">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-database"></i>
@@ -329,7 +331,7 @@
                                 Solutions.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 2">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 2" data-aos="fade-down" data-aos-delay="300">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-mobile-button"></i>
@@ -340,7 +342,7 @@
                                 Experiences.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 3">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 3" data-aos="fade-down" data-aos-delay="400">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-mobile-button"></i>
@@ -352,7 +354,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 text-center">
+                    <div class="col-12 text-center" data-aos="zoom-in">
                         <a href="https://portfolio.successmindinstitute.com/" target="_blank"
                             class="btn btn-lg btn-primary">
                             View Our Github
@@ -371,7 +373,7 @@
         <!-- Reviews Section -->
         <section class="review section-gap" id="Reviews">
             <div class="container">
-                <div class="section-header">
+                <div class="section-header" data-aos="zoom-in">
                     <h1 class="section-header__title">
                         <span class="section-header__title__sentence highlight-word">
                             <span class="highlight-word__shape">
@@ -450,7 +452,7 @@
                     <div class="col-lg-7 text-center">
                         <div class="subscribe-card">
                             <h1 class="fw-bold mb-4">Have any questions?</h1>
-                            <button data-bs-toggle="modal" data-bs-target="#requestQuoteModal"
+                            <button data-aos="zoom-in" data-bs-toggle="modal" data-bs-target="#requestQuoteModal"
                                 class="btn btn-lg btn-primary highlight-word">
                                 <span class="highlight-word__shape">
                                     <img src="./assets/images/shapes/highlight-shape.png" alt="highlight" height="40"
@@ -654,11 +656,16 @@
                     576: { items: 1 },
                     768: { items: 1 },
                     992: { items: 4 },
-                    1200: { items: 4 },
-                    1400: { items: 4 },
+                    1200: { items: 1 },
+                    1400: { items: 1 },
                 }
             });
         });
+    </script>
+    <!-- Aos Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
