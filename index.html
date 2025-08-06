@@ -309,7 +309,8 @@
                         profitably based on high-performing strategies.</p>
                 </div>
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 0" data-aos="fade-down" data-aos-delay="100">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 0" data-aos="fade-down"
+                        data-aos-delay="100">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-code"></i>
@@ -320,7 +321,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 1" data-aos="fade-down" data-aos-delay="200">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 1" data-aos="fade-down"
+                        data-aos-delay="200">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-database"></i>
@@ -331,7 +333,8 @@
                                 Solutions.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 2" data-aos="fade-down" data-aos-delay="300">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 2" data-aos="fade-down"
+                        data-aos-delay="300">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-mobile-button"></i>
@@ -342,7 +345,8 @@
                                 Experiences.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 service__item" style="--index: 3" data-aos="fade-down" data-aos-delay="400">
+                    <div class="col-lg-3 col-md-6 service__item" style="--index: 3" data-aos="fade-down"
+                        data-aos-delay="400">
                         <div class="service-card">
                             <span class="service-card__icon">
                                 <i class="fa-solid fa-mobile-button"></i>
@@ -619,7 +623,7 @@
                 loop: true,
                 // margin: 20,
                 nav: false,
-                dots: false,
+                dots: true,
                 autoplay: true,
                 autoplayHoverPause: true,
                 smartSpeed: 1000,
@@ -631,13 +635,29 @@
                     576: { items: 1 },
                     576: { items: 1 },
                     768: { items: 1 },
-                    992: { items: 4 },
+                    992: { items: 3 },
                     1200: { items: 3 },
                     1400: { items: 3 },
                 }
             });
         });
     </script>
+    <style>
+        .owl-theme .owl-dots .owl-dot span {
+            background: #5a47c0 !important;
+            width: 12px;
+            height: 12px;
+            margin: 5px 7px;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        .owl-theme .owl-dots .owl-dot.active span,
+        .owl-theme .owl-dots .owl-dot:hover span {
+            background: #ff1f8e !important;
+            opacity: 1;
+        }
+    </style>
     <!-- Aos Js -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
