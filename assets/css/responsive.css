@@ -50,9 +50,10 @@
 @media (min-width: 481px) and (max-width: 767px) {
 
     /* Service Section Start */
-    .service a{
+    .service a {
         margin-bottom: 10px;
     }
+
     /* Service Section End */
 
 }
@@ -93,7 +94,7 @@
         font-size: 14px;
     }
 
-    .service a{
+    .service a {
         margin-bottom: 10px;
         font-size: 14px;
     }
@@ -101,24 +102,36 @@
     /* Service Section End */
 
     /* Reviews Section Start */
-    .review .section-header .section-header__title .section-header__title__badge{
+    .review .section-header .section-header__title .section-header__title__badge {
         font-size: 19px;
     }
 
-    .review .section-header .section-header__text{
+    .review .section-header .section-header__text {
         font-size: 14px;
     }
+
+    /* Review Section Start */
+    .review .owl-theme .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px 7px;
+        opacity: 0.7;
+    }
+
+    /* Review Section End */
     /* Reviews Section End */
 
     /* Subscribe Section Start */
-    .subscribe button{
+    .subscribe button {
         font-size: 14px;
     }
+
     /* Subscribe Section End */
 
     /* Footer Section Start */
-    .footer p{
+    .footer p {
         font-size: 14px;
     }
+
     /* Footer Section End */
 }
