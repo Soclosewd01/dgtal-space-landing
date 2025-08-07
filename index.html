@@ -467,8 +467,8 @@
                     <div class="col-lg-7 text-center">
                         <div class="subscribe-card">
                             <h1 class="fw-bold mb-4">Have any questions?</h1>
-                            <button data-aos="zoom-in" data-aos-easing="linear" data-bs-toggle="modal" data-bs-target="#requestQuoteModal"
-                                class="btn btn-lg btn-primary highlight-word">
+                            <button data-aos="zoom-in" data-aos-easing="linear" data-bs-toggle="modal"
+                                data-bs-target="#requestQuoteModal" class="btn btn-lg btn-primary highlight-word">
                                 <span class="highlight-word__shape">
                                     <img src="./assets/images/shapes/highlight-shape.png" alt="highlight" height="40"
                                         loading="lazy" class="highlight-word__shape__image">
@@ -527,7 +527,7 @@
                         <a class="social-nav__link" href="https://instagram.com/dgtalspace" target="_blank">
                             <i class="fa-brands fa-instagram"></i>
                         </a>
-                        <a class="social-nav__link" href="https://www.linkedin.com/in/maksudur-rahman-730291190/"
+                        <a class="social-nav__link" href="https://www.linkedin.com/in/farahnaz-a-54135a191/"
                             target="_blank">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
@@ -666,12 +666,30 @@
                 mouseDrag: true,
                 autoplayTimeout: 8000,
                 responsive: {
-                    0: { items: 1 },
-                    576: { items: 1 },
-                    768: { items: 2 },
-                    992: { items: 3 },
-                    1200: { items: 3 },
-                    1400: { items: 3 },
+                    0: {
+                        items: 1,
+                        dotsEach: 7,
+                    },
+                    576: {
+                        items: 1,
+                        dotsEach: 7,
+                    },
+                    768: {
+                        items: 2,
+                        dotsEach: 7,
+                    },
+                    992: {
+                        items: 3,
+                        dotsEach: 7,
+                    },
+                    1200: {
+                        items: 3,
+                        dotsEach: 7,
+                    },
+                    1400: {
+                        items: 3,
+                        dotsEach: 7,
+                    },
                 }
             });
         });
