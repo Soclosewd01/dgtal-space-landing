@@ -135,3 +135,18 @@
 
     /* Footer Section End */
 }
+
+/* Responsive Sidebar Adjustment CSS Start */
+@media (width: 820px) {
+    .main-content {
+        margin-left: 80px;
+    }
+}
+
+@media (width: 800px) {
+    .main-content {
+        margin-left: 80px;
+    }
+}
+
+/* Responsive Sidebar Adjustment CSS  */
