@@ -711,3 +711,50 @@ body {
 }
 
 /* Review Section End */
+
+/* Banner Section Start */
+.banner-section{
+    width: 100%;
+    position: relative;
+}
+
+.banner-section .banner-content{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.banner-section .banner-content h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner-section .banner-content h1 span{
+    color: #5a47c0;
+}
+
+.banner-section .banner-content h2{
+    font-size: 51px;
+    font-weight: 600;
+}
+
+.banner-section .banner-content p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-section .banner-image{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.banner-section::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    z-index: 9;
+}
+/* Banner Section End */
