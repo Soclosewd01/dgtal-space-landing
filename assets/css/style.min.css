@@ -758,3 +758,41 @@ body {
     z-index: 9;
 }
 /* Banner Section End */
+
+/* Banner Bottom Section Start */
+.banner-bottom{
+    width: 100%;
+    margin-top: -95px;
+    z-index: 9;
+    position: absolute;
+}
+
+.banner-bottom .banner-bottom-image{
+    width: 100%;
+    padding: 15px 0px;
+}
+
+.banner-bottom .banner-bottom-image img{
+    width: 60px;
+}
+
+.banner-bottom .banner-bottom-text{
+    width: 100%;
+}
+
+.banner-bottom .banner-bottom-text h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.banner-bottom .banner-bottom-text h1 span{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.banner-bottom .banner-bottom-text p{
+    font-size: 14px;
+    color: #5a47c0;
+    font-weight: 600;
+}
+/* Banner Bottom Section End */
